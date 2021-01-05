@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+
+  game-server:
+    build: 
+      context: ./server
+    container_name: 'tachyon-server'
+    restart: 'always'
+    ports:
+      - "80" # TODO
