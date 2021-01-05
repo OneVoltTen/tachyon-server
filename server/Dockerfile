@@ -3,7 +3,7 @@ FROM openjdk:7
 
 # If there's a new update delete the downloaded files
 git clone https://github.com/Dav-Edward/TachyonsCE
-COPY ./client /usr/src/TachyonsCE
+COPY ./TachyonsCE /usr/src/TachyonsCE
 
 WORKDIR /usr/src/TachyonsCE/server
 
